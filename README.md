@@ -6,7 +6,7 @@ Yufeng Li
 
 ### Setup:
 
-Here is our project repo. First, clone this repo whereever you want it stored locally. Then, get the data
+Here is our project repo. First, clone this repo wherever you want it stored locally. Then, get the data
 provided by cloning this repo: https://github.com/semantic-textual-relatedness/Semantic_Relatedness_SemEval2024.git.
 I recommend doing so inside the CSE-842-Project folder that way the filepaths don't need changed.
 
