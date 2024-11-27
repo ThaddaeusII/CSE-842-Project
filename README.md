@@ -70,9 +70,9 @@ that we were using the limited dataset (250 samples), full training data is bein
 ### Final Model
 
 Fpr our final model, we seperated the process into two files: preprocessing and model training/testing. To preprocess the data, run 
-project_final_preprocessing.ipynb. This will generate our processed features for each sample, then save them to file (~5mins with cpu, gpu not setup).
+project_final_preprocessing.ipynb. This will generate our processed features for each sample, then save them to file (~5mins with cpu, gpu is seconds).
 If you already have the saved files, you can skip to project_final_eng.ipynb for training and evaluating the models using that data. It is highly recommended
-to use GPU support for this, but it shouldn't be too lengthy without it.
+to use GPU support for this.
 
 Our model uses a two BiLSTM system fallowed by dropout and a Linear output layer. This step uses a customized spearman correlation loss function.
 The idea details were borrowed from the following link, as we found an existing method of calculating this with graidents using a relatively new method
