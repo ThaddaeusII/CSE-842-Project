@@ -27,26 +27,27 @@ may need to workaround distilutils being deprecated. After getting steup, the fi
 
 Here are the full install comands used:
 
-pip3 install numpy pandas scipy matplotlib scikit-learn
-pip3 install python-Levenshtein
-pip3 install matplotlib
-pip3 install torch torchvision torchaudio -f https://download.pytorch.org/whl/cuda/12.0/torch_stable.html
-pip3 install torchsort
-pip3 install keras
-pip3 install 'tensorflow[and-cuda]'
-pip3 install transformers[torch]
+1. pip3 install numpy pandas scipy matplotlib scikit-learn
+2. pip3 install python-Levenshtein
+3. pip3 install matplotlib
+4. pip3 install torch torchvision torchaudio -f https://download.pytorch.org/whl/cuda/12.0/torch_stable.html
+5. pip3 install torchsort
+6. pip3 install keras
+7. pip3 install 'tensorflow[and-cuda]'
+8. pip3 install transformers[torch]
 
 You may need to install wheel for torch / torchsort installs:
-pip3 install wheel
+* pip3 install wheel
 
 If using ipykernel for local development, you may need these as well:
-pip3 install --upgrade ipykernel pyzmq tornado traitlets
-pip3 install --upgrade jupyter ipywidgets
+* pip3 install --upgrade ipykernel pyzmq tornado traitlets
+* pip3 install --upgrade jupyter ipywidgets
 
 If you want gpu, make sure you have the nvcc command working (NVIDIA CUDA Toolkit):
-sudo apt install nvidia-cuda-toolkit
+* sudo apt install nvidia-cuda-toolkit
+
 You may also need this command:
-pip3 install --force-reinstall --no-cache-dir --no-deps torchsort
+* pip3 install --force-reinstall --no-cache-dir --no-deps torchsort
 
 Make sure your nvcc and torch cuda versions match, I have opted for cuda 12.
 
